@@ -1,0 +1,25 @@
+* Create a new env:
+  conda create --name <my_env_name> python=<x.x> {installs the x.x python version. Must} anaconda {add all anaconda packages. Optional}
+
+ 
+* Activate an env:
+  conda activate <my_env_name>
+  or 
+  source activate <my_env_name>
+(now you can pip-install any packages in your specific env)
+
+
+* Duplicate an existing env:
+1. Create the requirements file:
+  When the original env is activated, do:
+  conda list -e > requirements.txt
+2. Then create the identical env by:
+  conda create --name <env> --file <this file>
+
+
+* See which envs exist:
+conda info --envs
+
+
+* Remove (delete) env:
+  conda env remove --name <env name>
