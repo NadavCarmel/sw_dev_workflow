@@ -4,3 +4,4 @@ Using PyCharm with the new env:
 2. copy the path which displayed 
 3. In PyCharm -> preferences -> project interpreter -> click 'sprocket wheel' on the right -> add -> select conda env -> mark existing environment -> 3 dots next to the interpreter bar -> in the popup window, paste the path from the terminal -> hit ok
 
+
