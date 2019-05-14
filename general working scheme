@@ -1,0 +1,31 @@
+Local machine:
+
+    Git
+      Project a
+        Codes
+        Configurations
+      …
+      Project n
+        Codes
+        Configurations
+
+
+  Dev
+    Project a
+      Codes: shortcut of /Git/Project a/codes
+      Configurations: shortcut of /Git/Project a/configurations
+      Data
+      Res
+    …
+    Project n
+      Codes: shortcut of /Git/Project n/codes
+      Configurations: shortcut of /Git/Project n/configurations
+      Data
+      Res
+ 
+
+-- Pycharm working directory is Git/Project x
+-- Commits and pushes from Pycharm are OK for that reason (no data is uploaded to stash)
+-- If we want to see results, add data for models etc., we do it from Dev/Project x
+
+
